@@ -47,6 +47,10 @@ print("Solution:")
 print(ffd)
 print(len(ffd), "bins")
 
+n = len(s)
+U = len(FFD(s,B)) 
+print(n,U)
+
 
 
 
