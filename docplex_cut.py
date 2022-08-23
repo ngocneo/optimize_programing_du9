@@ -28,6 +28,13 @@ for i in range(len(Cuts)):
 CutDemand = tmp
 print(cutcount)
 print(patcount)
+print(Patterns)
+print(Cuts)
+print(SheetsAvail)
+for p in Patterns:
+    print(p)
+print(CutsInPattern)
+print(CutDemand)
 model = ConcreteModel(name="CutStock Problem")
 
 #Defining Variables

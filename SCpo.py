@@ -42,7 +42,8 @@ def bpp(s,B):
     Returns a model, ready to be solved.
     """
     n = len(s)
-    U = len(FFD(s,B)) # upper bound of the number of bins
+    U = len(FFD(s,B))
+    print(n,U) # upper bound of the number of bins
     model = Model("bpp")
     # setParam("MIPFocus",1)
     x,y = {},{}
